@@ -9,7 +9,7 @@ use CaptainHook\App\Hook\Action;
 use SebastianFeldmann\Cli\Processor\ProcOpen;
 use SebastianFeldmann\Git\Repository;
 
-class YarnDeduplicateAction implements Action
+class YarnDuplicationCheckAction implements Action
 {
     public function execute(Config $config, IO $io, Repository $repository, Config\Action $action): void
     {
