@@ -29,6 +29,9 @@ Add yarn-deduplicate validation as a `pre-commit` to your `captainhook.json` con
 }
 ```
 
+The check is only run when committing changes to `yarn.lock`. It will thus not detect pre-existing duplications as
+long as there are no changes to the Yarn lockfile.
+
 The action expects [yarn-deduplicate](https://github.com/atlassian/yarn-deduplicate) to be installed as a local NPM
 package (i.e. available at `node_modules/.bin/yarn-deduplicate`).
 
