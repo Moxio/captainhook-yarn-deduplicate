@@ -1,0 +1,24 @@
+{
+	"name": "moxio/captainhook-yarn-deduplicate",
+	"type": "library",
+	"description": "Captain Hook Plugin to check for unnecessary duplication in yarn.lock using yarn-deduplicate",
+	"license": "MIT",
+	"keywords" : [ "captainhook", "yarn-deduplicate", "yarn", "git", "pre-commit" ],
+	"authors": [
+		{
+			"name": "Moxio",
+			"homepage": "https://www.moxio.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Moxio\\CaptainHook\\YarnDeduplicate\\": "src/"
+		}
+	},
+	"require": {
+		"php": "^7.2",
+		"captainhook/captainhook": "^4.4",
+		"sebastianfeldmann/cli": "^3.0",
+		"sebastianfeldmann/git": "^2.2"
+	}
+}
