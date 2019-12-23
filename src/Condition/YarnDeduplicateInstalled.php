@@ -1,4 +1,5 @@
 <?php
+
 namespace Moxio\CaptainHook\YarnDeduplicate\Condition;
 
 use CaptainHook\App\Console\IO;

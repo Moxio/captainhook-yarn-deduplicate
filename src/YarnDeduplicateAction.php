@@ -1,4 +1,5 @@
 <?php
+
 namespace Moxio\CaptainHook\YarnDeduplicate;
 
 use CaptainHook\App\Config;
