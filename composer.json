@@ -15,6 +15,11 @@
 			"Moxio\\CaptainHook\\YarnDeduplicate\\": "src/"
 		}
 	},
+	"autoload-dev": {
+		"psr-4": {
+			"Moxio\\CaptainHook\\YarnDeduplicate\\Test\\": "tests/"
+		}
+	},
 	"require": {
 		"php": "^7.2",
 		"captainhook/captainhook": "^4.4 || ^5.0",
@@ -22,7 +27,8 @@
 		"sebastianfeldmann/git": "^2.2 || ^3.0"
 	},
 	"require-dev": {
-		"squizlabs/php_codesniffer": "^3.5"
+		"squizlabs/php_codesniffer": "^3.5",
+		"phpunit/phpunit": "^8.5"
 	},
 	"scripts": {
 		"phpcs": "phpcs --standard=phpcs.xml.dist src"
